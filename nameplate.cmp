@@ -1,0 +1,187 @@
+Cmp-Mod V01 Created by PcbNew   date = 2017/12/22 22:58:38
+
+BeginCmp
+TimeStamp = 5A3CFCAB
+Path = /5A3D032E
+Reference = H2;
+ValeurCmp = neji;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3CFCB3
+Path = /5A3D03CC
+Reference = H4;
+ValeurCmp = neji;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3CFCAF
+Path = /5A3D03C6
+Reference = H3;
+ValeurCmp = neji;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3CFCB7
+Path = /5A3D0512
+Reference = H5;
+ValeurCmp = himo;
+IdModule  = fues-mounting_hole:M3-drillHole_5mm_nosilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3CFCBB
+Path = /5A3D05DC
+Reference = H6;
+ValeurCmp = himo;
+IdModule  = fues-mounting_hole:M3-drillHole_5mm_nosilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3CFCBF
+Path = /5A3D063E
+Reference = H7;
+ValeurCmp = himo;
+IdModule  = fues-mounting_hole:M3-drillHole_5mm_nosilk;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCA8B
+Path = /5A3CB98C
+Reference = D1;
+ValeurCmp = D;
+IdModule  = TO_SOT_Packages_SMD:SC-59_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCA7E
+Path = /5A3CCEFB
+Reference = C1;
+ValeurCmp = 4.7u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCA84
+Path = /5A3CBA82
+Reference = C2;
+ValeurCmp = 0.22u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAB9
+Path = /5A3D14FD
+Reference = GS1;
+ValeurCmp = GS2;
+IdModule  = Connectors:GS2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAD8
+Path = /5A3CC474
+Reference = R1;
+ValeurCmp = x;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCADE
+Path = /5A3CC53C
+Reference = R2;
+ValeurCmp = x;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAE4
+Path = /5A3CC4B5
+Reference = R3;
+ValeurCmp = x;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAEA
+Path = /5A3CC572
+Reference = R4;
+ValeurCmp = x;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAF3
+Path = /5A3CB567
+Reference = U1;
+ValeurCmp = CAT4238;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCC54
+Path = /5A3CB3D3
+Reference = L1;
+ValeurCmp = 47u;
+IdModule  = Choke_SMD:Choke_SMD_10.4x10.4_H4.8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCC59
+Path = /5A3D01CB
+Reference = L2;
+ValeurCmp = 47u;
+IdModule  = Choke_SMD:Choke_SMD_6.3x6.3_H3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAB3
+Path = /5A3CD9BD
+Reference = D5;
+ValeurCmp = white;
+IdModule  = fues-LEDs:NSCW008AT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAA9
+Path = /5A3CD991
+Reference = D4;
+ValeurCmp = white;
+IdModule  = fues-LEDs:NSCW008AT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCA9F
+Path = /5A3CD78A
+Reference = D3;
+ValeurCmp = white;
+IdModule  = fues-LEDs:NSCW008AT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCA95
+Path = /5A3CD62E
+Reference = D2;
+ValeurCmp = white;
+IdModule  = fues-LEDs:NSCW008AT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3BCAD2
+Path = /5A3CB0DA
+Reference = P1;
+ValeurCmp = USB_OTG;
+IdModule  = fues-connect:ZX62R-B-5P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A3CFCA7
+Path = /5A3CFF6E
+Reference = H1;
+ValeurCmp = neji;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_Pad_Via;
+EndCmp
+
+EndListe

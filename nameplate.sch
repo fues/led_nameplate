@@ -1,0 +1,586 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:fues-conn
+LIBS:fues-device
+LIBS:fues-display
+LIBS:fues-IC_and_module
+LIBS:fues-mounting_hole
+LIBS:fues-PIC
+LIBS:fues-power
+LIBS:nameplate-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L USB_OTG P1
+U 1 1 5A3CB0DA
+P 1600 3400
+F 0 "P1" H 1925 3275 50  0000 C CNN
+F 1 "USB_OTG" H 1600 3600 50  0000 C CNN
+F 2 "fues-connect:ZX62R-B-5P" V 1550 3300 50  0001 C CNN
+F 3 "" V 1550 3300 50  0000 C CNN
+	1    1600 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5A3CB19A
+P 1550 5250
+F 0 "#FLG01" H 1550 5345 50  0001 C CNN
+F 1 "PWR_FLAG" H 1550 5430 50  0000 C CNN
+F 2 "" H 1550 5250 50  0000 C CNN
+F 3 "" H 1550 5250 50  0000 C CNN
+	1    1550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5A3CB1AF
+P 2000 5250
+F 0 "#FLG02" H 2000 5345 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 5430 50  0000 C CNN
+F 2 "" H 2000 5250 50  0000 C CNN
+F 3 "" H 2000 5250 50  0000 C CNN
+	1    2000 5250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1900 3500
+NoConn ~ 1900 3400
+NoConn ~ 1900 3300
+$Comp
+L +5V #PWR03
+U 1 1 5A3CB22E
+P 1150 5250
+F 0 "#PWR03" H 1150 5100 50  0001 C CNN
+F 1 "+5V" H 1150 5390 50  0000 C CNN
+F 2 "" H 1150 5250 50  0000 C CNN
+F 3 "" H 1150 5250 50  0000 C CNN
+	1    1150 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 5A3CB25E
+P 2000 5500
+F 0 "#PWR04" H 2000 5250 50  0001 C CNN
+F 1 "GND" H 2000 5350 50  0000 C CNN
+F 2 "" H 2000 5500 50  0000 C CNN
+F 3 "" H 2000 5500 50  0000 C CNN
+	1    2000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A3CB2A6
+P 1500 3950
+F 0 "#PWR05" H 1500 3700 50  0001 C CNN
+F 1 "GND" H 1500 3800 50  0000 C CNN
+F 2 "" H 1500 3950 50  0000 C CNN
+F 3 "" H 1500 3950 50  0000 C CNN
+	1    1500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5A3CB2C1
+P 2000 3950
+F 0 "#PWR06" H 2000 3700 50  0001 C CNN
+F 1 "GND" H 2000 3800 50  0000 C CNN
+F 2 "" H 2000 3950 50  0000 C CNN
+F 3 "" H 2000 3950 50  0000 C CNN
+	1    2000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 5A3CB30C
+P 2000 3050
+F 0 "#PWR07" H 2000 2900 50  0001 C CNN
+F 1 "+5V" H 2000 3190 50  0000 C CNN
+F 2 "" H 2000 3050 50  0000 C CNN
+F 3 "" H 2000 3050 50  0000 C CNN
+	1    2000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L L_Small L1
+U 1 1 5A3CB3D3
+P 6250 2700
+F 0 "L1" H 6350 2650 50  0000 L CNN
+F 1 "47u" H 6350 2750 50  0000 L CNN
+F 2 "Choke_SMD:Choke_SMD_10.4x10.4_H4.8" H 6250 2700 50  0001 C CNN
+F 3 "" H 6250 2700 50  0000 C CNN
+	1    6250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAT4238 U1
+U 1 1 5A3CB567
+P 4700 3450
+F 0 "U1" H 4850 3000 60  0000 C CNN
+F 1 "CAT4238" H 5000 2900 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 4650 3750 60  0001 C CNN
+F 3 "" H 4650 3750 60  0000 C CNN
+	1    4700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5A3CB6AA
+P 4700 4150
+F 0 "#PWR08" H 4700 3900 50  0001 C CNN
+F 1 "GND" H 4700 4000 50  0000 C CNN
+F 2 "" H 4700 4150 50  0000 C CNN
+F 3 "" H 4700 4150 50  0000 C CNN
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 5A3CB786
+P 6250 2450
+F 0 "#PWR09" H 6250 2300 50  0001 C CNN
+F 1 "+5V" H 6250 2590 50  0000 C CNN
+F 2 "" H 6250 2450 50  0000 C CNN
+F 3 "" H 6250 2450 50  0000 C CNN
+	1    6250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 5A3CB79A
+P 4700 2800
+F 0 "#PWR010" H 4700 2650 50  0001 C CNN
+F 1 "+5V" H 4700 2940 50  0000 C CNN
+F 2 "" H 4700 2800 50  0000 C CNN
+F 3 "" H 4700 2800 50  0000 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_x2_KCom_AAK D1
+U 1 1 5A3CB98C
+P 6800 3450
+F 0 "D1" H 6800 3550 50  0000 C CNN
+F 1 "D" H 6800 3350 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SC-59_Handsoldering" H 6800 3450 50  0001 C CNN
+F 3 "" H 6800 3450 50  0000 C CNN
+	1    6800 3450
+	1    0    0    -1  
+$EndComp
+Text Label 6450 3900 0    60   ~ 0
+LEDA
+$Comp
+L C_Small C2
+U 1 1 5A3CBA82
+P 6250 4100
+F 0 "C2" H 6260 4170 50  0000 L CNN
+F 1 "0.22u" H 6260 4020 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6250 4100 50  0001 C CNN
+F 3 "" H 6250 4100 50  0000 C CNN
+	1    6250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5A3CBAE7
+P 6250 4300
+F 0 "#PWR011" H 6250 4050 50  0001 C CNN
+F 1 "GND" H 6250 4150 50  0000 C CNN
+F 2 "" H 6250 4300 50  0000 C CNN
+F 3 "" H 6250 4300 50  0000 C CNN
+	1    6250 4300
+	1    0    0    -1  
+$EndComp
+Text Label 5500 3600 0    60   ~ 0
+LEDK
+$Comp
+L R_Small R1
+U 1 1 5A3CC474
+P 5350 4150
+F 0 "R1" H 5380 4170 50  0000 L CNN
+F 1 "x" H 5380 4110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5350 4150 50  0001 C CNN
+F 3 "" H 5350 4150 50  0000 C CNN
+	1    5350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 5A3CC4B5
+P 5550 4150
+F 0 "R3" H 5580 4170 50  0000 L CNN
+F 1 "x" H 5580 4110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5550 4150 50  0001 C CNN
+F 3 "" H 5550 4150 50  0000 C CNN
+	1    5550 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 5A3CC53C
+P 5350 4550
+F 0 "R2" H 5380 4570 50  0000 L CNN
+F 1 "x" H 5380 4510 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5350 4550 50  0001 C CNN
+F 3 "" H 5350 4550 50  0000 C CNN
+	1    5350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 5A3CC572
+P 5550 4550
+F 0 "R4" H 5580 4570 50  0000 L CNN
+F 1 "x" H 5580 4510 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5550 4550 50  0001 C CNN
+F 3 "" H 5550 4550 50  0000 C CNN
+	1    5550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5A3CC9F8
+P 5350 4850
+F 0 "#PWR012" H 5350 4600 50  0001 C CNN
+F 1 "GND" H 5350 4700 50  0000 C CNN
+F 2 "" H 5350 4850 50  0000 C CNN
+F 3 "" H 5350 4850 50  0000 C CNN
+	1    5350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR013
+U 1 1 5A3CCC91
+P 4200 2800
+F 0 "#PWR013" H 4200 2650 50  0001 C CNN
+F 1 "+5V" H 4200 2940 50  0000 C CNN
+F 2 "" H 4200 2800 50  0000 C CNN
+F 3 "" H 4200 2800 50  0000 C CNN
+	1    4200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5A3CCEFB
+P 3900 3000
+F 0 "C1" H 3910 3070 50  0000 L CNN
+F 1 "4.7u" H 3910 2920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0000 C CNN
+	1    3900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR014
+U 1 1 5A3CCFEB
+P 3900 2800
+F 0 "#PWR014" H 3900 2650 50  0001 C CNN
+F 1 "+5V" H 3900 2940 50  0000 C CNN
+F 2 "" H 3900 2800 50  0000 C CNN
+F 3 "" H 3900 2800 50  0000 C CNN
+	1    3900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5A3CD09C
+P 3900 3400
+F 0 "#PWR015" H 3900 3150 50  0001 C CNN
+F 1 "GND" H 3900 3250 50  0000 C CNN
+F 2 "" H 3900 3400 50  0000 C CNN
+F 3 "" H 3900 3400 50  0000 C CNN
+	1    3900 3400
+	1    0    0    -1  
+$EndComp
+Text Label 9550 2950 0    60   ~ 0
+LEDA
+Text Label 9550 4400 0    60   ~ 0
+LEDK
+$Comp
+L Led_Small D2
+U 1 1 5A3CD62E
+P 10050 3200
+F 0 "D2" H 10000 3325 50  0000 L CNN
+F 1 "white" H 9875 3100 50  0000 L CNN
+F 2 "fues-LEDs:NSCW008AT" V 10050 3200 50  0001 C CNN
+F 3 "" V 10050 3200 50  0000 C CNN
+	1    10050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 5A3CD78A
+P 10050 3500
+F 0 "D3" H 10000 3625 50  0000 L CNN
+F 1 "white" H 9875 3400 50  0000 L CNN
+F 2 "fues-LEDs:NSCW008AT" V 10050 3500 50  0001 C CNN
+F 3 "" V 10050 3500 50  0000 C CNN
+	1    10050 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D4
+U 1 1 5A3CD991
+P 10050 3800
+F 0 "D4" H 10000 3925 50  0000 L CNN
+F 1 "white" H 9875 3700 50  0000 L CNN
+F 2 "fues-LEDs:NSCW008AT" V 10050 3800 50  0001 C CNN
+F 3 "" V 10050 3800 50  0000 C CNN
+	1    10050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Led_Small D5
+U 1 1 5A3CD9BD
+P 10050 4100
+F 0 "D5" H 10000 4225 50  0000 L CNN
+F 1 "white" H 9875 4000 50  0000 L CNN
+F 2 "fues-LEDs:NSCW008AT" V 10050 4100 50  0001 C CNN
+F 3 "" V 10050 4100 50  0000 C CNN
+	1    10050 4100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 7100 3450
+$Comp
+L L_Small L2
+U 1 1 5A3D01CB
+P 6700 2700
+F 0 "L2" H 6800 2650 50  0000 L CNN
+F 1 "47u" H 6800 2750 50  0000 L CNN
+F 2 "Choke_SMD:Choke_SMD_6.3x6.3_H3" H 6700 2700 50  0001 C CNN
+F 3 "" H 6700 2700 50  0000 C CNN
+	1    6700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GS2 GS1
+U 1 1 5A3D14FD
+P 5800 4550
+F 0 "GS1" H 5900 4700 50  0000 C CNN
+F 1 "GS2" H 5900 4401 50  0000 C CNN
+F 2 "Connectors:GS2" H 6100 4400 50  0000 C CNN
+F 3 "" H 5800 4550 50  0000 C CNN
+	1    5800 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6250 2500
+Wire Wire Line
+	6700 2500 6700 2600
+Wire Wire Line
+	6250 2500 6700 2500
+Connection ~ 6250 2900
+Wire Wire Line
+	6700 2900 6250 2900
+Wire Wire Line
+	6700 2800 6700 2900
+Wire Wire Line
+	6250 3650 6800 3650
+Wire Wire Line
+	6250 3450 6500 3450
+Wire Wire Line
+	10050 2950 9550 2950
+Wire Wire Line
+	10050 3100 10050 2950
+Wire Wire Line
+	10050 4400 10050 4200
+Wire Wire Line
+	9550 4400 10050 4400
+Wire Wire Line
+	10050 4000 10050 3900
+Wire Wire Line
+	10050 3700 10050 3600
+Wire Wire Line
+	10050 3400 10050 3300
+Wire Wire Line
+	3900 3100 3900 3400
+Wire Wire Line
+	3900 2900 3900 2800
+Wire Wire Line
+	4200 3400 4200 2800
+Connection ~ 5350 4750
+Connection ~ 5350 3950
+Connection ~ 5350 3600
+Wire Wire Line
+	5550 4750 5550 4650
+Wire Wire Line
+	5350 4750 5800 4750
+Wire Wire Line
+	5350 4650 5350 4850
+Wire Wire Line
+	5550 3950 5550 4050
+Wire Wire Line
+	5350 3950 5550 3950
+Wire Wire Line
+	5350 3600 5350 4050
+Connection ~ 5350 4350
+Connection ~ 5550 4350
+Wire Wire Line
+	5350 4350 5800 4350
+Wire Wire Line
+	5550 4250 5550 4450
+Wire Wire Line
+	5350 4250 5350 4450
+Wire Wire Line
+	5200 3600 5500 3600
+Wire Wire Line
+	6250 4200 6250 4300
+Connection ~ 6250 3900
+Wire Wire Line
+	6250 3900 6450 3900
+Wire Wire Line
+	6250 3650 6250 4000
+Connection ~ 6250 3250
+Wire Wire Line
+	4700 2800 4700 2850
+Wire Wire Line
+	6250 2450 6250 2600
+Wire Wire Line
+	6250 3250 5200 3250
+Wire Wire Line
+	6250 2800 6250 3450
+Wire Wire Line
+	4700 4000 4700 4150
+Wire Wire Line
+	2000 3200 2000 3050
+Wire Wire Line
+	1900 3200 2000 3200
+Wire Wire Line
+	2000 5250 2000 5500
+Wire Wire Line
+	1550 5350 1550 5250
+Wire Wire Line
+	1150 5350 1550 5350
+Wire Wire Line
+	1150 5250 1150 5350
+Wire Wire Line
+	2000 3600 2000 3950
+Wire Wire Line
+	1900 3600 2000 3600
+Wire Wire Line
+	1500 3800 1500 3950
+Connection ~ 5550 4750
+$Comp
+L mounting_hole H1
+U 1 1 5A3CFF6E
+P 4250 5900
+F 0 "H1" H 4450 5850 60  0000 C CNN
+F 1 "neji" H 4350 5700 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4250 5900 60  0001 C CNN
+F 3 "" H 4250 5900 60  0000 C CNN
+	1    4250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H2
+U 1 1 5A3D032E
+P 4250 6200
+F 0 "H2" H 4450 6150 60  0000 C CNN
+F 1 "neji" H 4350 6000 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4250 6200 60  0001 C CNN
+F 3 "" H 4250 6200 60  0000 C CNN
+	1    4250 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H3
+U 1 1 5A3D03C6
+P 4250 6500
+F 0 "H3" H 4450 6450 60  0000 C CNN
+F 1 "neji" H 4350 6300 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4250 6500 60  0001 C CNN
+F 3 "" H 4250 6500 60  0000 C CNN
+	1    4250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H4
+U 1 1 5A3D03CC
+P 4250 6800
+F 0 "H4" H 4450 6750 60  0000 C CNN
+F 1 "neji" H 4350 6600 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4250 6800 60  0001 C CNN
+F 3 "" H 4250 6800 60  0000 C CNN
+	1    4250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H5
+U 1 1 5A3D0512
+P 4850 5900
+F 0 "H5" H 5050 5850 60  0000 C CNN
+F 1 "himo" H 4950 5700 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4850 5900 60  0001 C CNN
+F 3 "" H 4850 5900 60  0000 C CNN
+	1    4850 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H6
+U 1 1 5A3D05DC
+P 4850 6200
+F 0 "H6" H 5050 6150 60  0000 C CNN
+F 1 "himo" H 4950 6000 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4850 6200 60  0001 C CNN
+F 3 "" H 4850 6200 60  0000 C CNN
+	1    4850 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H7
+U 1 1 5A3D063E
+P 4850 6500
+F 0 "H7" H 5050 6450 60  0000 C CNN
+F 1 "himo" H 4950 6300 60  0000 C CNN
+F 2 "fues-mounting_hole:M3-drillHole_5mm_nosilk" H 4850 6500 60  0001 C CNN
+F 3 "" H 4850 6500 60  0000 C CNN
+	1    4850 6500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4050 5950
+NoConn ~ 4650 5950
+NoConn ~ 4650 6250
+NoConn ~ 4650 6550
+NoConn ~ 4050 6250
+NoConn ~ 4050 6550
+NoConn ~ 4050 6850
+$EndSCHEMATC
